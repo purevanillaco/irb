@@ -1,0 +1,8 @@
+co\purevanilla\mcplugins\inventoryrollback\api\InventoryRollbackAPI.class
+co\purevanilla\mcplugins\inventoryrollback\api\obj\InventoryBackup.class
+co\purevanilla\mcplugins\inventoryrollback\cmd\History.class
+co\purevanilla\mcplugins\inventoryrollback\cmd\Rollback.class
+co\purevanilla\mcplugins\inventoryrollback\event\Death.class
+co\purevanilla\mcplugins\inventoryrollback\event\Preview.class
+co\purevanilla\mcplugins\inventoryrollback\cmd\Preview.class
+co\purevanilla\mcplugins\inventoryrollback\Main.class

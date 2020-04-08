@@ -1,0 +1,40 @@
+save:
+
+  # should be a list of the save on death cause list from the api
+  # list here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
+  #
+  # default config is ideal for storing an inventory backup on death cause
+  # related to elytra, which might be cause be server lag or connection lag
+
+  death:
+    # - BLOCK_EXPLOSION
+    # - CONTACT
+    # - CRAMMING
+    # - CUSTOM
+    # - DRAGON_BREATH
+    # - DROWNING
+    # - DRYOUT
+    # - ENTITY_ATTACK
+    # - ENTITY_EXPLOSION
+    # - ENTITY_SWEEP_ATTACK
+    # - FALL
+    # - FALLING_BLOCK
+    # - FIRE
+    # - FIRE_TICK
+    - FLY_INTO_WALL
+    # - HOT_FLOOR
+    # - LAVA
+    # - LIGHTNING
+    # - MAGIC
+    # - MELTING
+    # - POISON
+    # - PROJECTILE
+    # - STARVATION
+    # - SUFFOCATION
+    # - SUICIDE
+    # - THORNS
+    - VOID
+    # - WITHER
+
+history: []
+  # uuid: [] (json list)

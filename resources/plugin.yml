@@ -1,0 +1,19 @@
+main: co.purevanilla.mcplugins.inventoryrollback.Main
+name: InventoryRollback
+author: quiquelhappy
+api-version: 1.13
+version: 1.0.0
+description: Inventory rollback tool for death logging
+commands:
+  irbpreview:
+    usage: /irbpreview <player> <index>
+    permission: irb.preview
+    description: previews the inventory before doing a rollback
+  irbrollback:
+    usage: /irbrollback <player> <id>
+    permission: irb.rollback
+    description: does an inventory rollback on that player
+  irb:
+    usage: /irb <player>
+    permission: irb.history
+    description: inventory backup list for an specified player
